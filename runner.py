@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import os 
 from pathlib import Path
 
-executables = ["copernicusS2.py", "copernicusS3_updated.py"]
+executables = ["copernicusS2.py", "copernicusS3.py"]
 times_to_run = [""]
 
 # Check if all files exist
@@ -15,6 +15,7 @@ def check_files_exist(executables: list):
         if not file_path.exists():
             raise ValueError(f"{element} does not exist in {current_dir}")
     print(f"All {len(executables)} executables exist in {current_dir}")
+    print(current_dir)
 
 # Execute them 
 
@@ -69,6 +70,6 @@ def run_at_hour(target_hour=12, executables=executables):
         check_files_exist(executables)
         run_files(executables)
 
-#single_run()
+single_run()
 #permanent_run()
-run_at_hour(target_hour=12)
+#run_at_hour(target_hour=12)
