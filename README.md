@@ -6,7 +6,7 @@ Adding new layers for [OOM website](https://oom.arditi.pt/index.php), especially
 ![image](https://oom.arditi.pt/assets/OOM_Logo.png)
 ## Tech/framework used
 <b>Built with</b>
-- [Pyhton](https://www.python.org/)
+- [Python](https://www.python.org/)
 - [Sentinel hub](https://www.sentinel-hub.com/)
 - [Copernicus Browser](https://browser.dataspace.copernicus.eu)
 
@@ -20,7 +20,7 @@ It allows satellite images to be retrieved from Sentinel 2 and Sentinel 3. Proce
 ## Needed packages 
 Prior to running some packages have to be installed:
 ```
-pip install matplotlib pandas getpass sentinelhub oauthlib requests_oauthlib datetime PIL numpy 
+pip install matplotlib pandas sentinelhub oauthlib requests_oauthlib datetime pillow numpy 
 ```
 
 ## Running 
