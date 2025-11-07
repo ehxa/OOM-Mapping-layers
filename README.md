@@ -25,7 +25,7 @@ pip install matplotlib pandas sentinelhub oauthlib requests_oauthlib datetime pi
 
 ## Running 
 
-Change `client_id` and `client_secret` to your personal tokens provided by [copernicus.eu](https://browser.dataspace.copernicus.eu). For information about getting these tokens: [secret_tokes](https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Overview/Authentication.html); [FAQ's](https://documentation.dataspace.copernicus.eu/FAQ.html).
+Change `client_id` and `client_secret` to your personal tokens provided by [copernicus.eu](https://browser.dataspace.copernicus.eu). For information about getting these tokens: [secret_tokens](https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Overview/Authentication.html); [FAQ's](https://documentation.dataspace.copernicus.eu/FAQ.html).
 
 ### Running For the first time 
 After installing Sentinelhub, it is necessary to configure it for the first time before running. For that, all it takes is to **uncomment**:
