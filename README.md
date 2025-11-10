@@ -18,10 +18,14 @@ It allows satellite images to be retrieved from Sentinel 2 and Sentinel 3. Proce
 **IMPORTANT:** The **date_chooser()** function in `copernicusS3_updated.py` *ocasionally* produces small image cuts to the west. This can be fixed by analysing the **available_data()** id's and having more selection parameters in **date_chooser()**, other than the presence of "_NT_" in the id.
 
 ## Needed packages 
-Prior to running some packages have to be installed:
+Prior to running, create a virtual environment:
 ```
-pip install matplotlib pandas sentinelhub oauthlib requests_oauthlib datetime pillow numpy 
+python3 -m venv ./satellite-img
+source ./satellite-img/bin/activate
 ```
+
+Then, install the required packages:
+pip install -r requirements.txt
 
 ## Running 
 
